@@ -138,7 +138,6 @@ parse("x x 2    ** 1 +").diff("x").simplify().toString()
 Модификации
  * *Mini* (для тестирования)
     * Не поддерживаются бинарные операции
-    * Код находится в файле [functionalMiniExpression.js](javascript/functionalMiniExpression.js).
  * *3637*. Дополнительно реализовать поддержку:
     * переменных: `y`, `z`, `t`;
     * констант:
